@@ -23,6 +23,9 @@ app.use(express.json());
 app.use(cors());
 app.use(cors(corsOptions));
 app.use(express.json());
+app.get('/', (req, res) => {
+  res.send('Welcome to the server');
+});
 app.use('/uploads', express.static(__dirname + '/uploads'))
 
 
