@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const MONGO_URL = process.env.MONGO_URL;
+const MONGO_URI = process.env.MONGO_URI;
 
 //  Connection stablish with some other mongo url only for the check the dummy database
 
